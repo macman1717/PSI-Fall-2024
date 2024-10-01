@@ -1,6 +1,6 @@
 package PolymorphicAnimals;
 
-public class Mammal extends Animal {
+public abstract class Mammal extends Animal {
     private String furColor;
 
     public Mammal(String diet, String location, boolean isPrey, boolean isPredator, String furColor) {
