@@ -8,6 +8,8 @@ public class PolymorphismAnimalsTester {
         zoo.add(new Dog("meat","forest",true,true,"Brown",false));
         zoo.add(new Panda("Bamboo","China",false,false,"Black and White"));
         zoo.add(new RedPanda("Tree-leaves","South-East Asia",true,false,"Red and White"));
+        zoo.add(new Frog("Flies","swamps",true,true));
+        zoo.add(new Salamander("Flies","swamp",true,true));
         zoo.add(new Copperhead("Vermin", "South-East America", true, true, "Copper", 90));
 
         for(Animal animal: zoo){

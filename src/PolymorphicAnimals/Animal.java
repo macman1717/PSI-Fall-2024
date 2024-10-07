@@ -14,6 +14,7 @@ public abstract class Animal {
         this.isPredator = isPredator;
     }
 
+
     public abstract void makeNoise();
     public void eat(String food){
         System.out.println("Eating " + food + ", nom nom nom.");
