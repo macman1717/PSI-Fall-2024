@@ -1,6 +1,6 @@
 package PolymorphicAnimals;
 
-public class Animal {
+public abstract class Animal {
     private String diet;
     private String location;
     private boolean isPrey;
@@ -14,9 +14,9 @@ public class Animal {
         this.isPredator = isPredator;
     }
 
-    public void makeNoise(){
-        System.out.println("I am a basic animal and I am making noise.");
-    }
+
+    public abstract void makeNoise();
+
     public void eat(String food){
         System.out.println("Eating " + food + ", nom nom nom.");
     }
