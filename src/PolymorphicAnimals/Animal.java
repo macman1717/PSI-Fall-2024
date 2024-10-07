@@ -16,7 +16,6 @@ public abstract class Animal {
 
 
     public abstract void makeNoise();
-
     public void eat(String food){
         System.out.println("Eating " + food + ", nom nom nom.");
     }
