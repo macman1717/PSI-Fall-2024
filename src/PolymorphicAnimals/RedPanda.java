@@ -9,4 +9,5 @@ public class RedPanda extends Panda{
     public void makeNoise() {
         System.out.println("I am the cutest, and I'm not fat like my parent class");
     }
+
 }
