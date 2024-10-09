@@ -1,6 +1,6 @@
 package PolymorphicAnimals;
 
-public abstract class Animal {
+public abstract class Animal implements Comparable<Animal>{
     private String diet;
     private String location;
     private boolean isPrey;
@@ -75,5 +75,17 @@ public abstract class Animal {
 
     public void setPredator(boolean predator) {
         isPredator = predator;
+    }
+
+    @Override
+    public int compareTo(Animal o){
+        if(this.getDiet().compareTo(o.getDiet()) == 0){
+            return 0;
+        }else if(this.getDiet().compareTo(o.getDiet()) > 0){
+            return -1;
+        }else {
+            return 1;
+        }
+//        return this.getDiet().compareTo(o.getDiet());
     }
 }

@@ -1,6 +1,6 @@
 package PolymorphicAnimals;
 
-public class Dog extends Mammal {
+public class Dog extends Mammal implements Pet {
     private boolean isPet;
 
     public Dog(String diet, String location, boolean isPrey, boolean isPredator, String furColor, boolean isPet) {
@@ -19,5 +19,10 @@ public class Dog extends Mammal {
 
     public void setPet(boolean pet) {
         isPet = pet;
+    }
+
+    @Override
+    public void playWithOwner() {
+        System.out.println("I'm playing fetch.");
     }
 }
