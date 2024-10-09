@@ -1,8 +1,8 @@
 package PolymorphicAnimals;
 
 public class Salamander extends Amphibian{
-    public Salamander(String diet, String location, boolean isPrey, boolean isPredator) {
-        super(diet, location, isPrey, isPredator);
+    public Salamander(String name, int ageInYears, String color) {
+        super(name, ageInYears, color);
     }
 
     @Override

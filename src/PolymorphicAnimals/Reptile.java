@@ -1,15 +1,11 @@
 package PolymorphicAnimals;
 
 public abstract class Reptile extends Animal{
-    private String scaleColor;
-    private int daysInEgg;
     private boolean isVenomous;
 
-
-    public Reptile(String diet, String location, boolean isPrey, boolean isPredator, String scaleColor, int daysInEgg) {
-        super(diet, location, isPrey, isPredator);
-        this.scaleColor = scaleColor;
-        this.daysInEgg = daysInEgg;
+    public Reptile(String name, int ageInYears, String color, boolean isVenomous) {
+        super(name, ageInYears, color);
+        this.isVenomous = isVenomous;
     }
 
     public void layEggs(){
@@ -24,19 +20,4 @@ public abstract class Reptile extends Animal{
         isVenomous = venomous;
     }
 
-    public String getScaleColor() {
-        return scaleColor;
-    }
-
-    public void setScaleColor(String scaleColor) {
-        this.scaleColor = scaleColor;
-    }
-
-    public int getDaysInEgg() {
-        return daysInEgg;
-    }
-
-    public void setDaysInEgg(int daysInEgg) {
-        this.daysInEgg = daysInEgg;
-    }
 }

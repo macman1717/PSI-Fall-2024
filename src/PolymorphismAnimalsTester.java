@@ -5,15 +5,19 @@ import java.util.ArrayList;
 public class PolymorphismAnimalsTester {
     public static void main(String[] args) {
         ArrayList<Animal> zoo = new ArrayList<>();
-        zoo.add(new Dog("meat","forest",true,true,"Brown",false));
-        zoo.add(new Panda("Bamboo","China",false,false,"Black and White"));
-        zoo.add(new RedPanda("Tree-leaves","South-East Asia",true,false,"Red and White"));
-        zoo.add(new Frog("Flies","swamps",true,true));
-        zoo.add(new Salamander("Flies","swamp",true,true));
-        zoo.add(new Copperhead("Vermin", "South-East America", true, true, "Copper", 90));
+        zoo.add(new Dog("Fiona",4,"Black",true));
+        zoo.add(new Panda("Po",16,"White and Black"));
+        zoo.add(new RedPanda("Priya",2,"Red and White"));
+        zoo.add(new Frog("Kermit",69,"Green"));
+        zoo.add(new Salamander("Fiona",4,"Black and Yellow"));
+        zoo.add(new Copperhead("Bob", 14, "Copper", true));
 
         for(Animal animal: zoo){
             pokeAnimal(animal);
+        }
+
+        for(Animal animal: zoo){
+            System.out.println(animal);
         }
     }
 

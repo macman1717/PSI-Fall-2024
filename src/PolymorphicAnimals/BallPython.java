@@ -1,8 +1,8 @@
 package PolymorphicAnimals;
 
 public class BallPython extends Snake {
-    public BallPython(String diet, String location, boolean isPrey, boolean isPredator, String scaleColor, int daysInEgg) {
-        super(diet, location, isPrey, isPredator, scaleColor, daysInEgg);
+    public BallPython(String name, int ageInYears, String color, boolean isVenomous) {
+        super(name, ageInYears, color, isVenomous);
     }
 
     @Override

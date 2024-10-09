@@ -1,8 +1,8 @@
 package PolymorphicAnimals;
 
 public class Panda extends Mammal{
-    public Panda(String diet, String location, boolean isPrey, boolean isPredator, String furColor) {
-        super(diet, location, isPrey, isPredator, furColor);
+    public Panda(String name, int ageInYears, String color) {
+        super(name, ageInYears, color);
     }
 
     @Override
