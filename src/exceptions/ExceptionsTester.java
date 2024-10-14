@@ -16,8 +16,7 @@ public class ExceptionsTester {
         doSomething();
     }
 
-    public static void doSomething() throws CustomException {
+    public static void doSomething() {
         System.out.println("Wow I did something");
-        throw new CustomException("Wow you really did something.");
     }
 }
