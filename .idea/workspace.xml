@@ -5,22 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8a3c28b2-b63b-4e55-af2a-7348def080bb" name="Changes" comment="">
-
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PolymorphicAnimals/Alligator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PolymorphicAnimals/Alligator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PolymorphicAnimals/Amphibian.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PolymorphicAnimals/Amphibian.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/PolymorphicAnimals/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PolymorphicAnimals/Animal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PolymorphicAnimals/BallPython.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PolymorphicAnimals/BallPython.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PolymorphicAnimals/Copperhead.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PolymorphicAnimals/Copperhead.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PolymorphicAnimals/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PolymorphicAnimals/Dog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PolymorphicAnimals/Frog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PolymorphicAnimals/Frog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PolymorphicAnimals/Mammal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PolymorphicAnimals/Mammal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PolymorphicAnimals/Panda.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PolymorphicAnimals/Panda.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PolymorphicAnimals/RedPanda.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PolymorphicAnimals/RedPanda.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PolymorphicAnimals/Reptile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PolymorphicAnimals/Reptile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PolymorphicAnimals/Salamander.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PolymorphicAnimals/Salamander.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PolymorphicAnimals/Sheep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PolymorphicAnimals/Sheep.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PolymorphicAnimals/Snake.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PolymorphicAnimals/Snake.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/PolymorphismAnimalsTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PolymorphismAnimalsTester.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
