@@ -1,19 +1,17 @@
 package PolymorphicAnimals;
 
-public abstract class Animal implements Comparable<Animal>{
-    private String diet;
-    private String location;
-    private boolean isPrey;
-    private boolean isPredator;
-    public boolean isWarmBlooded;
 
-    public Animal(String diet, String location, boolean isPrey, boolean isPredator) {
-        this.diet = diet;
-        this.location = location;
-        this.isPrey = isPrey;
-        this.isPredator = isPredator;
+public abstract class Animal {
+
+    private String name;
+    private int ageInYears;
+    private String color;
+
+    public Animal(String name, int ageInYears, String color) {
+        this.name = name;
+        this.ageInYears = ageInYears;
+        this.color = color;
     }
-
 
     public abstract void makeNoise();
     public void eat(String food){
@@ -27,54 +25,38 @@ public abstract class Animal implements Comparable<Animal>{
     public void roam(){
         System.out.println("I am moving around!");
     }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public int getAgeInYears() {
+        return ageInYears;
+    }
+
+    public void setAgeInYears(int ageInYears) {
+        this.ageInYears = ageInYears;
+    }
+
+    public String getColor() {
+        return color;
+    }
+
+    public void setColor(String color) {
+        this.color = color;
+    }
+
     @Override
     public String toString() {
         final StringBuffer sb = new StringBuffer();
-        sb.append("diet='").append(diet).append('\'');
-        sb.append(", location='").append(location).append('\'');
-        sb.append(", isPrey=").append(isPrey);
-        sb.append(", isPredator=").append(isPredator);
+        sb.append("name='").append(name).append('\'');
+        sb.append(", ageInYears=").append(ageInYears);
+        sb.append(", color='").append(color).append('\'');
         return sb.toString();
-    }
-
-    public boolean isWarmBlooded() {
-        return isWarmBlooded;
-    }
-
-    public void setWarmBlooded(boolean warmBlooded) {
-        isWarmBlooded = warmBlooded;
-    }
-
-    public String getDiet() {
-        return diet;
-    }
-
-    public void setDiet(String diet) {
-        this.diet = diet;
-    }
-
-    public String getLocation() {
-        return location;
-    }
-
-    public void setLocation(String location) {
-        this.location = location;
-    }
-
-    public boolean isPrey() {
-        return isPrey;
-    }
-
-    public void setPrey(boolean prey) {
-        isPrey = prey;
-    }
-
-    public boolean isPredator() {
-        return isPredator;
-    }
-
-    public void setPredator(boolean predator) {
-        isPredator = predator;
     }
 
     @Override

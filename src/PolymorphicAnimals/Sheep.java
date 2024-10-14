@@ -1,12 +1,14 @@
 package PolymorphicAnimals;
 
 public class Sheep extends Mammal{
-    public Sheep(String diet, String location, boolean isPrey, boolean isPredator, String furColor) {
-        super(diet, location, isPrey, isPredator, furColor);
+
+
+    public Sheep(String name, int ageInYears, String color) {
+        super(name, ageInYears, color);
     }
 
     @Override
     public void makeNoise() {
-
+        System.out.println("Baaaaaah");
     }
 }

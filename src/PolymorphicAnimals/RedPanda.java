@@ -1,8 +1,9 @@
 package PolymorphicAnimals;
 
 public class RedPanda extends Panda{
-    public RedPanda(String diet, String location, boolean isPrey, boolean isPredator, String furColor) {
-        super(diet, location, isPrey, isPredator, furColor);
+
+    public RedPanda(String name, int ageInYears, String color) {
+        super(name, ageInYears, color);
     }
 
     @Override
