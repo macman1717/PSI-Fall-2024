@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8a3c28b2-b63b-4e55-af2a-7348def080bb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/exceptions/CustomException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exceptions/ExceptionsTester.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PolymorphismAnimalsTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PolymorphicAnimals/PolymorphismAnimalsTester.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exceptions/ExceptionsTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exceptions/ExceptionsTester.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

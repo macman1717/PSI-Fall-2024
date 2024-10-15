@@ -1,6 +1,8 @@
 package exceptions;
 
-public class CustomException extends RuntimeException{
+import java.io.IOException;
+
+public class CustomException extends IOException {
     public CustomException() {
     }
 
