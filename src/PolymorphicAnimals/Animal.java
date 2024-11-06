@@ -1,6 +1,7 @@
 package PolymorphicAnimals;
 
-public abstract class Animal {
+
+public abstract class Animal implements Comparable<Animal>{
 
     private String name;
     private int ageInYears;
@@ -33,7 +34,7 @@ public abstract class Animal {
         this.name = name;
     }
 
-    public int getAgeInYears() {
+    public Integer getAgeInYears() {
         return ageInYears;
     }
 
@@ -56,5 +57,16 @@ public abstract class Animal {
         sb.append(", ageInYears=").append(ageInYears);
         sb.append(", color='").append(color).append('\'');
         return sb.toString();
+    }
+
+    @Override
+    public int compareTo(Animal o){
+        if(this.getName().compareTo(o.getName()) < 0){
+            return -1;
+        }else if(this.getName().compareTo(o.getName()) > 0){
+            return 1;
+        }else {
+            return this.getAgeInYears().compareTo(o.getAgeInYears());
+        }
     }
 }

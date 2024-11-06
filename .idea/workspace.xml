@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8a3c28b2-b63b-4e55-af2a-7348def080bb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Recursion/RecursionExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/IO/FileIOTester.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exceptions/CustomException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exceptions/CustomException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exceptions/ExceptionsTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exceptions/ExceptionsTester.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +18,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -24,6 +26,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="KubernetesApiProvider"><![CDATA[{
+  "isMigrated": true
+}]]></component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -40,11 +45,12 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.ExceptionsTester.executor": "Run",
+    "Application.FileIOTester.executor": "Run",
     "Application.PolymorphismAnimalsTester.executor": "Run",
-    "Application.RecursionExample.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "recursion",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -55,9 +61,35 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.RecursionExample">
+  <component name="RunManager" selected="Application.FileIOTester">
+    <configuration name="ExceptionsTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exceptions.ExceptionsTester" />
+      <module name="untitled" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="exceptions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FileIOTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="IO.FileIOTester" />
+      <module name="untitled" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="IO.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PolymorphismAnimalsTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PolymorphismAnimalsTester" />
+      <option name="MAIN_CLASS_NAME" value="PolymorphicAnimals.PolymorphismAnimalsTester" />
       <module name="untitled" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -78,7 +110,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.RecursionExample" />
+        <item itemvalue="Application.FileIOTester" />
+        <item itemvalue="Application.ExceptionsTester" />
         <item itemvalue="Application.PolymorphismAnimalsTester" />
       </list>
     </recent_temporary>
@@ -94,8 +127,8 @@
       <workItem from="1727655246454" duration="2559000" />
       <workItem from="1727877508989" duration="2163000" />
       <workItem from="1728481365253" duration="1230000" />
-      <workItem from="1728876317852" duration="620000" />
-      <workItem from="1730850904833" duration="861000" />
+      <workItem from="1729083049660" duration="4869000" />
+      <workItem from="1729519673658" duration="7469000" />
     </task>
     <servers />
   </component>
