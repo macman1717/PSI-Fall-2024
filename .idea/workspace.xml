@@ -5,22 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8a3c28b2-b63b-4e55-af2a-7348def080bb" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Recursion/RecursionExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PolymorphicAnimals/Alligator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PolymorphicAnimals/Alligator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PolymorphicAnimals/Amphibian.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PolymorphicAnimals/Amphibian.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PolymorphicAnimals/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PolymorphicAnimals/Animal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PolymorphicAnimals/BallPython.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PolymorphicAnimals/BallPython.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PolymorphicAnimals/Copperhead.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PolymorphicAnimals/Copperhead.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PolymorphicAnimals/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PolymorphicAnimals/Dog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PolymorphicAnimals/Frog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PolymorphicAnimals/Frog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PolymorphicAnimals/Mammal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PolymorphicAnimals/Mammal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PolymorphicAnimals/Panda.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PolymorphicAnimals/Panda.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PolymorphicAnimals/RedPanda.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PolymorphicAnimals/RedPanda.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PolymorphicAnimals/Reptile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PolymorphicAnimals/Reptile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PolymorphicAnimals/Salamander.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PolymorphicAnimals/Salamander.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PolymorphicAnimals/Sheep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PolymorphicAnimals/Sheep.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PolymorphicAnimals/Snake.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PolymorphicAnimals/Snake.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PolymorphismAnimalsTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PolymorphismAnimalsTester.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,23 +38,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.PolymorphismAnimalsTester.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;/Users/connor/Desktop/PSI-Fall-2024/untitled/src/Main.java&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.PolymorphismAnimalsTester.executor": "Run",
+    "Application.RecursionExample.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "recursion",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "/Users/connor/Desktop/PSI-Fall-2024/untitled/src/Main.java",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RunManager">
+}]]></component>
+  <component name="RunManager" selected="Application.RecursionExample">
     <configuration name="PolymorphismAnimalsTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="PolymorphismAnimalsTester" />
       <module name="untitled" />
@@ -75,18 +63,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RecursionExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Recursion.RecursionExample" />
+      <module name="untitled" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Recursion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RecursionExample" />
         <item itemvalue="Application.PolymorphismAnimalsTester" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="SharedIndexes">
-    <attachedChunks>
-      <set>
-        <option value="jdk-21.0.2-openjdk-21.0.2-f644763e9732-a81d5c7c" />
-      </set>
-    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -99,6 +94,8 @@
       <workItem from="1727655246454" duration="2559000" />
       <workItem from="1727877508989" duration="2163000" />
       <workItem from="1728481365253" duration="1230000" />
+      <workItem from="1728876317852" duration="620000" />
+      <workItem from="1730850904833" duration="861000" />
     </task>
     <servers />
   </component>
