@@ -1,5 +1,5 @@
 package PolymorphicAnimals;
 
 public interface Pet {
-    void playWithOwner();
+    String playWithOwner();
 }

@@ -30,7 +30,7 @@ public class Dog extends Mammal implements Pet {
     }
 
     @Override
-    public void playWithOwner() {
-        System.out.println("I'm playing fetch.");
+    public String playWithOwner() {
+        return "I'm playing fetch.";
     }
 }
