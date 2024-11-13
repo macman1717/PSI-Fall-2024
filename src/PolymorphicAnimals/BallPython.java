@@ -12,7 +12,7 @@ public class BallPython extends Snake implements Pet{
     }
 
     @Override
-    public void playWithOwner() {
-        System.out.println("I'm wrapping around my owner's hand.");
+    public String playWithOwner() {
+        return "I'm wrapping around my owner's hand.";
     }
 }

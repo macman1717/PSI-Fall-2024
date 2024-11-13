@@ -12,7 +12,7 @@ public class Frog extends Amphibian implements Pet{
     }
 
     @Override
-    public void playWithOwner() {
-        System.out.println("I'm eating flies.");
+    public String playWithOwner() {
+        return "I'm eating flies.";
     }
 }

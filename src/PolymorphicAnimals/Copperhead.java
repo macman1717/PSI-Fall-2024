@@ -1,6 +1,6 @@
 package PolymorphicAnimals;
 
-public class Copperhead extends Reptile{
+public class Copperhead extends Snake{
     public Copperhead(String name, int ageInYears, String color, boolean isVenomous) {
         super(name, ageInYears, color, isVenomous);
     }
