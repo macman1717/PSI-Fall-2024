@@ -22,6 +22,7 @@ public class Zoo<E extends Animal> {
     public void add(E animal){
         if(spaceAvailable()) {
             listOfAnimals.add(animal);
+            numOfAnimals++;
         }else{
             System.out.println("No space available for this animal. Consider building another inclosure.");
         }

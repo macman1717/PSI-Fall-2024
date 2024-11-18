@@ -3,11 +3,15 @@ package Generics;
 import PolymorphicAnimals.*;
 
 import java.util.ArrayList;
+import java.util.HashMap;
+
 /*
 used for generic methods
  */
 public class ZooTester {
     public static void main(String[] args) {
+
+        Zoo<Animal> newZoo = new Zoo<>();
 
         ArrayList<Animal> zoo = new ArrayList<>();
 
@@ -25,20 +29,20 @@ public class ZooTester {
         listOfSnakes.add(new Copperhead("Jeff",5,"Copper",false));
         listOfSnakes.add(new BallPython("Randy",4,"Copper",false));
 
-        ArrayList<Amphibian> listOfAmplibians = new ArrayList<>();
-        listOfAmplibians.add(new Frog("Bob",5,"green"));
-        listOfAmplibians.add(new Salamander("Alice",7,"purple"));
-        listOfAmplibians.add(new Frog("Katherine",5,"Red"));
+        ArrayList<Amphibian> listOfAmphibians = new ArrayList<>();
+        listOfAmphibians.add(new Frog("Bob",5,"green"));
+        listOfAmphibians.add(new Salamander("Alice",7,"purple"));
+        listOfAmphibians.add(new Frog("Katherine",5,"Red"));
 
         playWithAnimals(zoo);
-//        playWithAnimals(kennel);
-//        playWithAnimals(listOfSnakes);
-//        playWithAnimals(listOfAmplibians);
+        playWithAnimals(kennel);
+        playWithAnimals(listOfSnakes);
+        playWithAnimals(listOfAmphibians);
     }
 
-    private static void playWithAnimals(ArrayList<Animal> listOfAnimals){
-        for(Animal animal : listOfAnimals){
-            System.out.println("Playing with " + animal.getName());
+    private static void playWithAnimals(ArrayList<? extends Animal> listOfAnimals){
+        for(Animal o : listOfAnimals){
+            System.out.println("Playing with " + o.getName());
         }
     }
 
