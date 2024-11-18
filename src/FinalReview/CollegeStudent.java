@@ -1,6 +1,6 @@
 package FinalReview;
 
-public class CollegeStudent {
+public class CollegeStudent implements Cloneable, Comparable<CollegeStudent>{
     private int stuID;
     private String name;
     private String major;
@@ -55,4 +55,19 @@ public class CollegeStudent {
         sb.append('}');
         return sb.toString();
     }
+
+    @Override
+    public CollegeStudent clone(){
+        try {
+            return (CollegeStudent) super.clone();
+        } catch (CloneNotSupportedException e) {
+            throw new AssertionError();
+        }
+    }
+
+    @Override
+    public int compareTo(CollegeStudent otherStudent) {
+        return this.getName().compareTo(otherStudent.getName());
+    }
+
 }

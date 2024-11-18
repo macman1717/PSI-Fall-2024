@@ -8,7 +8,7 @@ public class RecursionExample {
 
         System.out.println(getFib(1));
         System.out.println(getFib(4));
-        System.out.println(getFib(10));
+        System.out.println(getFib(50));
     }
 
     public static int getFactorial(int x){
