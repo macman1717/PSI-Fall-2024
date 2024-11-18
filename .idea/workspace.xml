@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8a3c28b2-b63b-4e55-af2a-7348def080bb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/FinalReview/CollegeStudentTester.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FinalReview/students.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FinalReview/RecursionTester.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FinalReview/CollegeStudent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FinalReview/CollegeStudent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FinalReview/CollegeStudentTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FinalReview/CollegeStudentTester.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Recursion/RecursionExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Recursion/RecursionExample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,33 +44,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.ExceptionsTester.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FileIOTester.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PolymorphismAnimalsTester.executor&quot;: &quot;Run&quot;,
-    &quot;Application.RecursionExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ZooTester.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;/Users/connor/Desktop/PSI-Fall-2024/untitled/src/Main.java&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.CollegeStudentTester.executor": "Run",
+    "Application.ExceptionsTester.executor": "Run",
+    "Application.FileIOTester.executor": "Run",
+    "Application.PolymorphismAnimalsTester.executor": "Run",
+    "Application.RecursionExample.executor": "Run",
+    "Application.RecursionTester.executor": "Run",
+    "Application.ZooTester.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "/Users/connor/Desktop/PSI-Fall-2024/untitled/src/Main.java",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RunManager" selected="Application.ZooTester">
-    <configuration name="ExceptionsTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="exceptions.ExceptionsTester" />
+}]]></component>
+  <component name="RunManager" selected="Application.CollegeStudentTester">
+    <configuration name="CollegeStudentTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FinalReview.CollegeStudentTester" />
       <module name="untitled" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="exceptions.*" />
+          <option name="PATTERN" value="FinalReview.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -89,19 +93,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PolymorphismAnimalsTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PolymorphicAnimals.PolymorphismAnimalsTester" />
-      <module name="untitled" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="RecursionExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Recursion.RecursionExample" />
       <module name="untitled" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Recursion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RecursionTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FinalReview.RecursionTester" />
+      <module name="untitled" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="FinalReview.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,11 +134,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ZooTester" />
+        <item itemvalue="Application.CollegeStudentTester" />
+        <item itemvalue="Application.RecursionTester" />
         <item itemvalue="Application.RecursionExample" />
+        <item itemvalue="Application.ZooTester" />
         <item itemvalue="Application.FileIOTester" />
-        <item itemvalue="Application.ExceptionsTester" />
-        <item itemvalue="Application.PolymorphismAnimalsTester" />
       </list>
     </recent_temporary>
   </component>
@@ -155,7 +165,8 @@
       <workItem from="1730077787057" duration="1509000" />
       <workItem from="1730295022962" duration="3862000" />
       <workItem from="1730734800152" duration="1173000" />
-      <workItem from="1731896067137" duration="1042000" />
+      <workItem from="1731896067137" duration="1137000" />
+      <workItem from="1731940590594" duration="5840000" />
     </task>
     <servers />
   </component>
